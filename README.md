@@ -8,9 +8,9 @@ When using the [INCEpTION annotation tool](https://inception-project.github.io/)
 To merge these annotated files into a single project — for example to compare annotations or calculate an inter-annotator agreement — simply copying and pasting the exported files is not always possible.
 For UIMA CAS XMI or JSON output, INCEpTION does not preserve the original filenames; instead, it names exported annotation files after the annotating user.  Therefore, even if the projects share the same texts, annotation layers, and tagsets, merging them might not be straightforward. This script helps by renaming the exported files to match the original input filenames and saving them in a new folder (/annotations_renamed). This allows direct re-import into another INCEpTION project.
 
-The script renames files to the name of the original input file and saves files into new folder (`/annotations_renamed`), so that a user can directly import the annotations into the tool.
+The script renames files to the name of the original input file and saves files into new folder (``/annotations_renamed``), so that a user can directly import the annotations into the tool.
 
-*Note*: In Inception when exporting the projects, choose Exported Backup Archive, not Curated Archive. 
+*Note*: In INCEpTION when exporting the projects, choose Exported Backup Archive, not Curated Archive. 
 
 
 ### Usage 
